@@ -27,27 +27,22 @@ animateAlongPath = function (path, element, start, dur, callback) {
   });
 };
 
-
-animateAlongPath(path1, data1, 0, 1000, () => {
+animateAlongPath(path1, data1, 0, 2600, () => {
   console.log("over");
 })
 
-animateAlongPath(path2, data2, 0, 1200, () => {
+animateAlongPath(path2, data2, 0, 2400, () => {
   console.log("over");
 })
 
-animateAlongPath(path3, data3, 0, 1300, () => {
+animateAlongPath(path3, data3, 0, 2600, () => {
   console.log("over");
 })
 
-animateAlongPath(path4, data4, 0, 1100, () => {
+animateAlongPath(path4, data4, 0, 2200, () => {
   console.log("over");
 })
 
-animateAlongPath(path5, data5, 0, 900, () => {
-  console.log("over");
-})
-
-animateAlongPath(path6, data6, 0, 1100, () => {
+animateAlongPath(path5, data5, 0, 1800, () => {
   console.log("over");
 })
