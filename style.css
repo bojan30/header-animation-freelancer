@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#svg{
+  width: 40%;
+}
+
+.cls-1,
+          .cls-2 {
+            fill: none;
+          }
+    
+          .cls-2 {
+            stroke: #3fa9f5;
+            stroke-width: 2px;
+          }
+    
+          .cls-2,
+          .cls-21,
+          .cls-5 {
+            stroke-miterlimit: 10;
+          }
+    
+          .cls-3 {
+            fill: #ccc;
+          }
+    
+          .cls-4 {
+            fill: #3fa9f5;
+          }
+    
+          .cls-22,
+          .cls-5 {
+            fill: #fff;
+          }
+    
+          .cls-21,
+          .cls-5 {
+            stroke: #000;
+            stroke-width: 0.25px;
+          }
+    
+          .cls-6 {
+            fill: #fe0000;
+          }
+    
+          .cls-7 {
+            fill: #fefefe;
+          }
+    
+          .cls-8 {
+            fill: #fe4500;
+          }
+    
+          .cls-9 {
+            fill: #fe4501;
+          }
+    
+          .cls-10 {
+            fill: #e94335;
+          }
+    
+          .cls-11 {
+            fill: #34a753;
+          }
+    
+          .cls-12 {
+            fill: #4284f3;
+          }
+    
+          .cls-13 {
+            fill: #fabb05;
+          }
+    
+          .cls-14 {
+            fill: #e93e2f;
+          }
+    
+          .cls-15 {
+            fill: #1fa246;
+          }
+    
+          .cls-16 {
+            fill: #20a246;
+          }
+    
+          .cls-17 {
+            fill: #e93d2e;
+          }
+    
+          .cls-18 {
+            fill: #317df3;
+          }
+    
+          .cls-19 {
+            fill: #1ea245;
+          }
+    
+          .cls-20 {
+            fill: #21a247;
+          }
+    
+          .cls-21 {
+            fill: #3167fb;
+          }
+    
+          .cls-23 {
+            fill: #54acec;
+          }
+    
+          .cls-24 {
+            fill: #f7971d;
+          }
+    
+          .cls-25 {
+            fill: #747474;
+          }
