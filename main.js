@@ -46,3 +46,6 @@ animateAlongPath(path4, data4, 0, 2200, () => {
 animateAlongPath(path5, data5, 0, 1800, () => {
   console.log("over");
 })
+animateAlongPath(path6, data6, 0, 1900, () => {
+  console.log("over");
+})
