@@ -26,23 +26,25 @@ window.onload = function(){
   //logos opacity
   setTimeout(()=>{
     logos.animate({ opacity: 1 }, 500, mina.easeinout)
-  },500)
+  },250)
   //main tile opacity
   setTimeout(() => {
     mainTile.animate({ opacity: 1 }, 500, mina.easeinout)
-  }, 1000);
+  }, 500);
   //main logo opacity
   setTimeout(() => {
     mainLogo.animate({ opacity: 1 }, 500, mina.easeinout)
-  },1500);
+  },750);
   //paths and points opacity
   setTimeout(()=>{
     paths.animate({ opacity: 1 }, 500, mina.easeinout);
     dataPoints.animate({opacity: 1}, 500, mina.easeinout, ()=>{
-      //main animation(data flow)
-      dataPoints.forEach((data,i)=>{
-        animateAlongPath(paths[i], data, 0, durations[i] , animateAlongPath);
-      })
     });
-  }, 2000)
+  }, 1000)
+  setTimeout(()=>{
+    //main animation(data flow)
+    dataPoints.forEach((data, i) => {
+      animateAlongPath(paths[i], data, 0, durations[i], animateAlongPath);
+    })
+  }, 1250);
 }
